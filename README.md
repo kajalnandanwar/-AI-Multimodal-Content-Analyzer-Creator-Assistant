@@ -113,11 +113,16 @@ The results show that combining text, video, and audio analysis gives better and
 
 ## Future Scope
 
-* Add real-time video analysis
-* Auto caption and script generation
-* Competitor content comparison
-* Integration with Instagram API
-* Mobile application development
+* Multimodal analysis (text + video + audio together)
+* Real-time video content understanding
+* “Why viral?” explanation (reason-based insights)
+* AI-powered content improvement suggestions
+* Competitor comparison with AI reasoning
+* Viral prediction using combined data (not just stats)
+* Context-aware content analysis (understands meaning, not just numbers)
+* AI-generated captions based on video understanding
+* AI-generated script suggestions for future content
+* Trend-aware intelligent recommendations (what to post next)
 
 ---
 
