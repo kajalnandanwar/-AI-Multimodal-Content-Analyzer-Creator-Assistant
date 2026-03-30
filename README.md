@@ -1,8 +1,8 @@
-# Smart AI Interview Assistant (Resume + Mock Interview System)
+# AI Multimodal Content Analyzer & Creator Assistant
 
 ## Project Title
 
-Smart AI Interview Assistant for Resume Analysis and Mock Interviews
+AI-Based Multimodal Content Analyzer for Reels and YouTube
 
 ## Author(s)
 
@@ -20,40 +20,40 @@ March 2026
 
 ## Abstract
 
-This project presents a Smart AI Interview Assistant designed to help students and job seekers prepare for interviews effectively. The system analyzes resumes and conducts mock interviews to improve user performance.
+This project focuses on developing an AI-based system that can analyze social media content such as Instagram Reels and YouTube videos. The main goal is to understand why certain content becomes viral and provide suggestions to improve performance.
 
-The system takes a resume as input and evaluates skills, experience, and keywords. Based on this, it generates relevant interview questions. It also conducts mock interviews and provides feedback on answers.
+The system takes input in the form of video, caption, and hashtags. It uses AI techniques like Natural Language Processing (NLP), Computer Vision, and audio analysis to evaluate the content. It analyzes engagement factors such as likes, comments, and watch time to predict viral potential.
 
-The project uses AI techniques like Natural Language Processing (NLP) to understand resumes and responses. The system helps users identify their strengths and weaknesses. Results show improved confidence and better interview preparation. This project highlights how AI can support career development and job readiness.
+The system provides outputs like engagement score, viral probability, and improvement suggestions. Results show that AI-based analysis helps creators improve their content quality and reach. This project demonstrates how AI can assist content creators in making better and more impactful videos.
 
 ---
 
 ## Introduction
 
-Preparing for interviews can be stressful, especially for freshers. Many candidates lack proper guidance and practice.
+Social media platforms like Instagram and YouTube are widely used for content creation. Many creators struggle to understand why some videos go viral while others do not.
 
-This project aims to develop an AI-based system that helps users prepare for interviews by analyzing their resumes and conducting mock interviews. It acts like a personal interview coach.
+This project aims to build an AI system that can analyze content and provide insights to creators. It acts like a smart assistant for content improvement.
 
 Main objectives:
 
-* Analyze resumes automatically
-* Generate interview questions
-* Conduct mock interviews
-* Provide feedback and improvement suggestions
+* Analyze video, text, and audio together
+* Predict viral potential
+* Provide improvement suggestions
+* Help creators grow their audience
 
 ---
 
 ## Literature Review
 
-There are platforms like LinkedIn, Glassdoor, and AI-based tools that provide interview preparation resources. Some tools offer resume screening and basic mock interviews.
+Existing tools like YouTube Analytics, VidIQ, and TubeBuddy provide basic statistics such as views and engagement. However, they do not deeply analyze content using AI.
 
-Research in NLP and AI chatbots has enabled systems to understand human language and generate responses. However, many existing systems are not personalized. This project focuses on providing customized interview preparation based on user resumes.
+Recent research in multimodal AI combines text, image, and video analysis to improve understanding. Models like CLIP and deep learning techniques are used for such tasks. This project focuses on combining these techniques into a single system for better analysis.
 
 ---
 
 ## Methodology (100 words)
 
-The system takes the user’s resume as input and processes it using NLP techniques to extract skills, experience, and key information. Based on this analysis, it generates relevant interview questions. During the mock interview, the user answers questions, and the system evaluates responses using predefined criteria or AI models. Feedback is then provided on areas like correctness, clarity, and confidence. The system is modular, allowing easy updates and improvements. It can also learn from user interactions over time to provide better and more personalized feedback.
+The system takes input such as video files, captions, and hashtags. Text data is analyzed using NLP to extract keywords and sentiment. Video frames are processed using computer vision to detect objects, faces, and scene changes. Audio is analyzed for tone and clarity. Engagement metrics like likes and comments are also considered. All extracted features are combined to understand the overall content quality. Based on this, the system predicts viral probability and generates suggestions for improvement. The modular design allows easy upgrades and integration of advanced AI models in the future.
 
 ---
 
@@ -67,9 +67,10 @@ The system takes the user’s resume as input and processes it using NLP techniq
 ### Frameworks/Libraries
 
 * FastAPI
+* OpenCV
 * NLTK / SpaCy
+* TensorFlow / PyTorch
 * Transformers (Hugging Face)
-* TensorFlow / PyTorch (optional)
 
 ### Tools Used
 
@@ -77,56 +78,57 @@ The system takes the user’s resume as input and processes it using NLP techniq
 * GitHub
 * Postman
 * Google Colab
+* YouTube API
 * Docker (optional)
 
 ---
 
 ## Results and Discussion
 
-The system performs tasks like:
+The system can:
 
-* Resume analysis
-* Generating interview questions
-* Conducting mock interviews
-* Providing feedback
+* Analyze video content (frames and scenes)
+* Evaluate captions and hashtags
+* Predict viral potential
+* Provide improvement suggestions
 
 Benefits:
 
-* Improves interview confidence
-* Personalized preparation
-* Identifies strengths and weaknesses
+* Helps creators improve content
+* Increases engagement chances
+* Provides AI-based insights
 
-The system helps users practice effectively and prepare better for real interviews.
+The results show that combining text, video, and audio analysis gives better and more accurate recommendations compared to basic analytics tools.
 
 ---
 
 ## Limitation
 
-* Limited understanding of complex answers
-* Feedback may not always be fully accurate
-* Requires good quality resume input
-* Limited real-time interaction capability
+* Requires high computational resources
+* Limited accuracy for very complex videos
+* Depends on quality of input data
+* Real-time processing can be slow
 
 ---
 
 ## Future Scope
 
-* Add voice-based mock interviews
-* Use advanced AI models for better evaluation
-* Real-time interview simulation
-* Integration with job portals
-* Emotion and confidence detection
+* Add real-time video analysis
+* Auto caption and script generation
+* Competitor content comparison
+* Integration with Instagram API
+* Mobile application development
 
 ---
 
 ## Conclusion
 
-The Smart AI Interview Assistant is a useful tool for interview preparation. It helps users improve their skills through resume analysis and mock interviews. The system reduces stress and increases confidence. This project shows how AI can be used to support career growth and job readiness.
+The AI Multimodal Content Analyzer helps creators understand their content better and improve performance. By combining multiple AI techniques, the system provides accurate insights and suggestions. This project shows how AI can transform content creation and make it more data-driven and efficient.
 
 ---
 
 ## References
 
-[1] "Natural Language Processing Research," 2021.
-[2] "AI Chatbots and Interview Systems," 2022.
+[1] "Multimodal AI Research Papers," 2022.
+[2] "Deep Learning for Video Analysis," 2021.
 [3] https://huggingface.co/
